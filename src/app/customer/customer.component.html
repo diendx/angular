@@ -1,0 +1,21 @@
+<h1>customer content</h1>
+<table>
+    <thead>
+   <tr>
+       <th>No</th>   
+       <th>Name</th>
+       <th>Age</th>   
+       <th>City</th>
+       <th>State</th>     
+   </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let customer of custommers">
+        <td>{{customer.customerNo}}</td>
+        <td>{{customer.name}}</td>
+        <td>{{customer.age}}</td>
+        <td>{{customer.state}}</td>
+    </tr>
+</tbody>
+
+</table>
