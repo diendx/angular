@@ -3,6 +3,10 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import Mapboxgl from 'mapbox-gl';
+
+
+Mapboxgl.accessToken = 'pk.eyJ1IjoiZGllbmR4OTkiLCJhIjoiY2t5MmRxOWIwMGs0ZjJxcDhzbHhnbDdqOSJ9.G_YShPgeJMTNI492DvQlmQ';
 
 if (environment.production) {
   enableProdMode();
